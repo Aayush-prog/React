@@ -1,0 +1,18 @@
+types of programming
+    declarative:what to do,allowed by react
+    imperative:how to do(how should it be done),js apppend
+JSX
+        javascript xml
+        uses className instead of className
+        allows to write html in js
+        returns json
+        render one parent element only
+react project start(nodejs needed)
+    npx create-react-app my-app(appname)
+    cd my-app
+    npm start
+component 
+        capitalize first letter
+        wrap it into <> eg: <Component />
+        when in a new file add export default name in the end
+        
