@@ -15,4 +15,6 @@ component
         capitalize first letter
         wrap it into <> eg: <Component />
         when in a new file add export default name in the end
-        
+react ran two ways
+    npx create-react-app//slow
+    npm create vite@latest
