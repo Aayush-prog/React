@@ -1,10 +1,17 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import logo from './logo.svg';
+import './App.css';
+import Header from './component/Header'
+import Footer from './component/Footer'
+import Main from './component/Main'
 
-const page=(
-  <h1>Test</h1>
-)
-
-ReactDOM.render(page)
+function App(){
+  return(
+      <div>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+  )
+}
 
 export default App;
