@@ -2,19 +2,55 @@ types of programming
     declarative:what to do,allowed by react
     imperative:how to do(how should it be done),js apppend
 JSX
-        javascript xml
-        uses className instead of className
-        allows to write html in js
-        returns json
-        render one parent element only
+    javascript xml
+    uses className instead of className
+    allows to write html in js
+    returns json
+    render one parent element only
+    js and jsx can be used together (js inside {} in jsx)
 react project start(nodejs needed)
     npx create-react-app my-app(appname)
     cd my-app
     npm start
 component 
-        capitalize first letter
-        wrap it into <> eg: <Component />
-        when in a new file add export default name in the end
+    capitalize first letter
+    wrap it into <> eg: <Component />
+    when in a new file add export default name in the end
 react ran two ways
     npx create-react-app//slow
     npm create vite@latest
+props
+    added to the components
+    basically properties
+    components have dispaly logic which gets data from props
+    props used as parameter in the components
+    import React from "react"
+    returns json
+props usage
+<div className="contacts">
+            <Contact 
+                img="./images/mr-whiskerson.png" 
+                name="Mr. Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
+                num={12345}
+            />
+ expoert default function Contact ({img,name,phone,email})
+export default function Contact(props) {
+    console.log(props)
+    return (
+        <div className="contact-card">
+            <img src={props.img}/>
+            <h3>{props.name}</h3>
+            <div className="info-group">
+                <img src="./images/phone-icon.png" />
+                <p>{props.phone}</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>{props.email}</p>
+            </div>
+        </div>
+    )
+}
+
