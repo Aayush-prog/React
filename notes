@@ -1,6 +1,7 @@
 types of programming
     declarative:what to do,allowed by react
     imperative:how to do(how should it be done),js apppend
+
 JSX
     javascript xml
     uses className instead of className
@@ -8,17 +9,21 @@ JSX
     returns json
     render one parent element only
     js and jsx can be used together (js inside {} in jsx)
+
 react project start(nodejs needed)
     npx create-react-app my-app(appname)
     cd my-app
     npm start
+
 component 
     capitalize first letter
     wrap it into <> eg: <Component />
     when in a new file add export default name in the end
+
 react ran two ways
     npx create-react-app//slow
     npm create vite@latest
+
 props
     added to the components
     basically properties
@@ -26,6 +31,8 @@ props
     props used as parameter in the components
     import React from "react"
     returns json
+    donot change from within the body
+
 props usage
 <div className="contacts">
             <Contact 
@@ -54,3 +61,8 @@ export default function Contact(props) {
     )
 }
 
+spread
+    {...item}
+
+react state
+    used when have changing values and saved or displayed

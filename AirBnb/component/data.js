@@ -10,7 +10,7 @@ export default [
             reviewCount: 6
         },
         location: "Online",
-        openSpots: 0,
+        openSpots: 5,
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ export default [
             reviewCount: 2
         },
         location: "Norway",
-        openSpots: 3,
+        openSpots: 5,
     },
     {
         id: 4,
