@@ -66,3 +66,15 @@ spread
 
 react state
     used when have changing values and saved or displayed
+    React.useState()=>array with second item as func
+    used array destructiong with it
+    use callback function with in the set func
+    Note: if you ever need the old value of state
+     * to help you determine the new value of state,
+     * you should pass a callback function to your
+     * state setter function instead of using
+     * state directly. This callback function will
+     * receive the old value of state as its parameter,
+     * which you can then use to determine your new
+     * value of state.
+     
