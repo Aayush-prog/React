@@ -80,7 +80,15 @@ react state
     keep it as local as we can
     to change props define state within the child component called derived state(not good)
     rather than derived state pass functions as props
+
 forms in react
     uses state and watching every change
     used onChange event listener to listen to any changes having there
+
+controlled components
+    making the states in form of object
+    name in html dom should match to the state names
+
+API calls
+    with fetch when used state goes infinite loop
     
