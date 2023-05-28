@@ -77,4 +77,10 @@ react state
      * receive the old value of state as its parameter,
      * which you can then use to determine your new
      * value of state.
-     
+    keep it as local as we can
+    to change props define state within the child component called derived state(not good)
+    rather than derived state pass functions as props
+forms in react
+    uses state and watching every change
+    used onChange event listener to listen to any changes having there
+    
