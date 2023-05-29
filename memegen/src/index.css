@@ -64,8 +64,9 @@ main {
 }
 
 .meme--image {
-  max-width: 100%;
-  border-radius: 3px;
+  transform: translateY(10px);
+  max-width: 600px;
+  border-radius: 5px;
 }
 
 .meme--text {

@@ -29,7 +29,7 @@ props
     basically properties
     components have dispaly logic which gets data from props
     props used as parameter in the components
-    import React from "react"
+    import React, { useEffect } from "react"
     returns json
     donot change from within the body
 
@@ -91,4 +91,17 @@ controlled components
 
 API calls
     with fetch when used state goes infinite loop
-    
+    outside effects{localStorage,api interactions} meaning react doesnot involve in them you can write the js cod ebut react doesnot involve
+    effect hook(useEffect()) allows use to interact outside react ecosystem
+
+useEffect()
+    always runs on first render
+    has two parameter first callback function & 2nd dependencies array
+    callback function has side effect codes
+    dependencies array determines when it will rerun the useEffect
+
+useEffect cleanup
+    return function in useEffect function
+    remove memory leakage
+
+
